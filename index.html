@@ -1,0 +1,360 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Ubuntu&display=swap" rel="stylesheet">
+<style>
+    body{
+        background-image: url("pic.jpg");
+       background-size: contain cover;
+        opacity: 1.9;
+    }
+    main{
+        height: 80%;
+    }
+    .header{
+        text-align: center;
+        font-size: 4rem;
+        color: white;
+        background-color: #212224;
+        padding: 40px;
+        
+    }
+    nav{
+    display:flex; 
+    background-color: black;
+    opacity: 1;
+    border-radius: 10px;
+    }
+    .menu-btn{
+        float: none;
+        background-color: black;
+        padding: 2%;
+        word-spacing: 50px;
+        border-radius: 10px;
+    }
+    .menu-btn:hover{
+        background-color: aliceblue;
+        color:#333;
+    }
+
+    a{
+        color: white;
+    }
+    .h1{
+        font-size: 25px;
+        text-align: center;
+        background-color: #F0F0F0;
+        margin: 20% 0% 0% 45%;
+        display: inline;
+        border: 2px ;
+        padding: 10px;
+        border-radius: 25px;
+        
+       
+
+    }
+    .hobbies{
+        
+        font-size: 23px;
+        text-align: center;
+        background-color: #F0F0F0;
+        margin: 2% 0% 0% 45%;
+        display: inline;
+        border: 2px ;
+        padding: 12px 20px;
+        border-radius: 25px;
+      
+        
+    }
+    .skills{
+        font-size: 22px;
+        text-align: center;
+        background-color: #F0F0F0;
+        margin: 2% 0% 0% 2%;
+        display: inline;
+        border: 2px ;
+        padding: 12px 20px;
+        border-radius: 25px;
+    }
+    .footer{
+
+        background-color: black;
+        color: white;
+        padding: 7px;
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+        opacity: 1;
+        
+
+    }
+    .profile_img{
+
+        border-color: #212224;
+        
+        border-radius: 50% ;
+        margin: 3% 14% 0% 0%;
+        height: 300px;
+        width: 300px;
+        border: 5px solid #555;
+    }
+
+    .content{
+        height: 200vh;
+        
+    }
+
+
+    .profile_name{
+
+        color: white;
+        font-size: 50px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        margin: 50px 20px 5px 5px;
+        
+    }
+
+    .about_title{
+        margin: 30px;
+    }
+    .sm-handle{
+        color: black;
+    }
+
+    .social-icons{
+
+    align-items: center;
+    color: black;
+    font-size: 1.5rem;
+    padding-left: 4.5%;
+    block-size: 30%;
+    justify-content: left;
+    }
+    
+    a{
+        font-size: large;
+    }
+
+    a.social-icon{
+
+        color: white;
+    }
+    
+
+    .section-1{
+ 
+        display: inline-block;
+        padding-left: 4% ;
+        text-align: left;
+          
+    }
+    aside{
+        
+        float: right;
+        width: 77%;
+        background-color: #606163;
+        border-radius: 50px;
+        opacity: 0.8;
+        position: absolute;
+        bottom: 13%;
+        top: 45%;
+        left: 21%;
+        border:  grey dashed;
+    }
+    .section-2{
+
+     
+        background-color: #42474c;
+        margin: 10% 0% 3% 0%;
+        border: grey dashed ;
+        border-radius: 100px;
+        opacity: 0.9;
+    }
+    .section-3{
+        background-color: #42474c;
+        margin: 2% 0% 3% 0%;
+        border: grey dashed ;
+        border-radius: 100px;
+
+    }
+    .section-4{
+        background-color: #42474c;
+        margin: 2% 0% 3% 0%;
+        border: grey dashed ;
+        border-radius: 100px;
+    }
+    .education{
+        text-align: center;
+        text-shadow: whitesmoke;
+        color: whitesmoke;
+    }
+    .para{
+
+        text-align: center;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+
+    .hob{
+        text-align: center;
+        font-size: 20px;
+        color: #333;
+    }
+    .Skilltable{
+        align-self: center;
+    }
+    table{
+
+        font-size: large;
+        margin: 2px 250px 30px 400px;
+        color: whitesmoke;
+
+    }
+    .hobpara{
+        padding-top: 2% ;
+    }
+    .skilltab{
+        padding-top: 2%;
+    }
+    .aboutmepara{
+
+        display: block;
+    }
+</style>
+</head>
+<body bgcolor="#303841">
+<main>                  
+                                                   
+    <header class="header">Resume</header>
+    <nav>
+        <a class="menu-btn" href="#">Home</a>
+        <a class="menu-btn" href="#edu">Education</a>
+        <a class="menu-btn" href="#hobb">Hobbies</a>
+        <a class="menu-btn" href="#skil">Skills</a>
+
+    </nav><br>
+    <br>
+
+    <section class="content">
+    <img class="profile_img" src="kb2.png" alt="This is Keertan Bhatt" width="20%">   
+
+    <div style="width: 170px; padding: 2%;">
+    <h1 style="color: whitesmoke ; font-size: 2.5rem; letter-spacing: 0.1rem; font-family: 'Cormorant Garamond', serif;">About Me:</h1>
+    <p style="color: white; font-size: 1.2rem; word-spacing: 0.2rem;"> A computer science student who dreams of becoming a data scientist and starting a business in the field.</p> 
+    </div>
+    
+    <aside>   
+         <section class="section-1">
+        
+            <h3 class="profile_name"> Keertan Bhatt</h3><br>
+            
+            
+    </section>
+    <div class="social-icons">
+        <a class="social-icon" href="https://www.linkedin.com/in/keertan-bhatt-867473204/">Linkedin |</a>
+        <a class="social-icon" href="https://github.com/keertanbhatt">github |</a>
+        <a class="social-icon" href="https://www.youtube.com/channel/UCTDZnGZkrdXdW1DNanUGZcQ">YouTube|</a>
+        <a class="social-icon" href="https://www.facebook.com/keertan.bhatt">Facebook </a><br><br>
+        <a class="social-icon" href="keertan119@gmail.com">Keertan119@gmail.com</a><br><br>
+        <a class="social-icon" href="">7043272901</a>
+    </div>
+   
+    <div id="edu">
+    
+    <section class="section-2"  id="edu">
+        <article >
+            <br>
+            <h1 class="h1" >Education</h1><br><br>
+            <h2 class="education">10 Standard:</h2>
+            <p class="para">J.H Ambani School<br>
+                marks:65%</p>
+            <h2 class="education">12 Standard:</h2>
+            <p class="para">Radiant International School<br>
+                 marks:68%</p>
+            <h2 class="education">College:</h2>
+            <p class="para">R.N.G Patel Institute of technology<br>
+                Degree:Btech<br>
+                     CGPA:8.46</p><br>
+        </article>
+    </section>
+</div>
+    <section class="section-3" id="hobb">
+        <article class="hobpara">
+            <h1 class="hobbies">hobbies</h1><br><br>
+            <p class="para">Apart from coding i play football , go for cycling , also love to go for trekking and other outdoor stuff.</p>
+                    <p class="para">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows,<br> 
+                        I do play guitar, and I am also intrested in learning other instruments .  </p><br><br>
+            <h2>
+
+            </h2>
+        </article>
+    </section>
+    <section class="section-4" id="skil">
+        <center>
+        <article class="skilltab">
+            <h1 class="skills">Skills</h1><br><br></br>
+           <div class="divskills">
+            <table>
+                <tbody>
+                <tr>
+                <td width="299">
+                <p><strong>Non Technical Skills:</strong></p>
+                </td>
+                <td width="299">
+                <p><strong>Technical Skills:</strong></p>
+                </td>
+                </tr>
+                <tr>
+                <td width="299">
+                <p>Communication</p>
+                </td>
+                <td width="299">
+                <p>Python</p>
+                </td>
+                </tr>
+                <tr>
+                <td width="299">
+                <p>Creativity</p>
+                </td>
+                <td width="299">
+                <p>C/C++</p>
+                </td>
+                </tr>
+                <tr>
+                <td width="299">
+                <p>Time Management</p>
+                </td>
+                <td width="299">
+                <p>Java</p>
+                </td>
+                </tr>
+                <tr>
+                <td width="299">
+                <p>Decision Making</p>
+                </td>
+                <td width="299">
+                <p>Html/css/js</p>
+                </td>
+                </tr>
+                </tbody>
+                </table>
+                <p>&nbsp;</p>
+           </div>
+        </article>
+    </center>
+</aside>
+    </section>
+</section>
+
+<footer class="footer">
+    <p>&copy;All rights reserved </p>
+</footer>
+</main>
+</body>
+</html>
